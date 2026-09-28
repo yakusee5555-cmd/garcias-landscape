@@ -49,7 +49,7 @@ export const Route = createFileRoute("/api/yard-plan")({
 
         const base64 = Buffer.from(await image.arrayBuffer()).toString("base64");
         const imageUrl = `data:${image.type};base64,${base64}`;
-        const prompt = `You are the experienced project planner for Father & Son Landscaping. Study the supplied yard photo and the customer's notes. Create a useful preliminary landscaping brief, not a sales pitch. Do not claim certainty about dimensions, drainage, soil, plant health, safety, boundaries, permits, or hidden conditions that cannot be confirmed from one photo. Never diagnose tree safety from the photo; recommend an on-site assessment where appropriate.
+        const prompt = `You are the experienced project planner for Garcia's Landscape. Study the supplied yard photo and the customer's notes. Create a useful preliminary landscaping brief, not a sales pitch. Do not claim certainty about dimensions, drainage, soil, plant health, safety, boundaries, permits, or hidden conditions that cannot be confirmed from one photo. Never diagnose tree safety from the photo; recommend an on-site assessment where appropriate.
 
 Customer details:
 - Property: ${parsed.data.propertyType}

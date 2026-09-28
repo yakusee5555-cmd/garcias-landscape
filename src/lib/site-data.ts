@@ -1,9 +1,10 @@
 export const business = {
   name: "Garcia's Landscape",
   shortName: "Garcia's",
-  phone: "(555) 000-0000",
-  phoneHref: "tel:+15550000000",
-  address: "",
+  phone: "(972) 480-4681",
+  phoneHref: "tel:+19724804681",
+  address: "809 W 9th St, Dallas, TX",
+  hours: "7am–7pm daily",
   tagline: "Outdoor spaces, properly cared for.",
 };
 
@@ -30,4 +31,4 @@ export const services = [
   { title: "Seasonal cleanups", description: "Leaf clearance, bed preparation and property resets from spring through winter.", image: media.cleanup },
 ];
 export const nav = [{to:"#home",label:"Home"},{to:"#services",label:"Services"},{to:"#plan-my-yard",label:"Plan My Yard"},{to:"#about",label:"About"},{to:"#contact",label:"Contact"}] as const;
-export const whatsappUrl = "https://wa.me/15550000000?text=Hello%20Garcia%27s%20Landscape%2C%20I%27d%20like%20a%20free%20quote.";
+export const whatsappUrl = "https://wa.me/19724804681?text=Hello%20Garcia%27s%20Landscape%2C%20I%27d%20like%20a%20free%20quote.";
